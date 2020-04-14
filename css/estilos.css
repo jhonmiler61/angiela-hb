@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
+
+
+:root{
+    --color-primero: #ABA0F6;
+    --color-segundo: #BEB6F5;
+    --color-tercero: #CCC5F8;
+    --color-title: white;
+    --color-cuarto: #F5F8F7;
+    --color-letra: #937B9A;
+    --box-shadow: 0 0 5px white;
+    --color-heard: #F03434;
+}
+
+
+body{
+
+    font-family: 'Baloo Paaji 2', cursive;
+    background-color: var(--color-tercero);
+}
+/*TITULO*/
+.container-title{   
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primero);
+    font-size: 16px;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow); 
+}
+.title-hb{
+    margin: 5px;
+    padding: 0px;
+    color: var(--color-title);
+}
+
+/*FOTO CUMPLEAÑERA*/
+.foto-cumple{
+    margin: 5px auto;
+    margin-top: 20px;
+    padding: auto;
+    text-align: center;
+}
+.foto{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+/*Angiela*/
+.title-angiela{
+    text-align: center;
+    background-color: var(--color-primero);
+    width: 74%;
+    margin: auto;
+    padding: auto;
+    color: var(--color-title);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+.cora{
+    color: var(--color-heard);
+}
+
+/*contenedor de videos*/
+.contenedor-videos{
+    background-color: var(--color-segundo);
+    text-align: center;
+    margin:auto;
+    padding: 20px 20px;
+    width: 70%;
+    border-radius: 10px;
+}
+.video-hb{  
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-video{
+    background-color: var(--color-cuarto);
+    padding: 10px;
+    border-radius: 6px;
+}
